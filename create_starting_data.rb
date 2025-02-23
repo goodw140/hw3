@@ -43,9 +43,9 @@ icehike["place_id"] = iceland["id"]
 icehike.save
 
 fp = Entry.new
-fp["title"] = "xx"
-fp["description"] = "xx"
-fp["occurred_on"] = Date.new(2023, 12, 12)
+fp["title"] = "Got food poisoning"
+fp["description"] = "Ate some bad chicken from the grocery store and got bad food poisoning"
+fp["occurred_on"] = Date.new(2023, 7, 24)
 fp["place_id"] = hk["id"]
 fp.save
 
