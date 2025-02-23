@@ -2,8 +2,9 @@
 
 <p>
   <% for place in @places %>
-  <a href="/places/<%=place["name"]%>">
-    <%= place["name"]%>
+  <a href="/places/<%= place["name"] %>">
+    <p><%= place["name"]%></p>
+    <%end%>
 </p>
 
 
